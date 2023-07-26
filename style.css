@@ -1,5 +1,5 @@
 body {
-    background-image: url("./backgroundlaranja.jpg");
+    background-image: url("Photos/backgroundlaranja.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -78,6 +78,7 @@ ul li {
 ul li a{
     display: block;
     padding : 36px 66px;
+    transition: all 0.2s ease;
 }
 
 ul li a:hover{
@@ -87,17 +88,17 @@ ul li a:hover{
 }
 
 #about{
-    background-image: url("Bolhas3.png");
+    background-image: url("Photos/Bolhas3.png");
     background-position: center;
 }
 
 #portfolio{
-    background-image: url("Bolhas2.png");
+    background-image: url("Photos/Bolhas2.png");
     background-position: center;
 }
 
 #acomplishments{
-    background-image: url("Bolhas\ Laranja.png");
+    background-image: url("Photos/Bolhas\ Laranja.png");
     background-position: center;
    
 }
