@@ -1,5 +1,5 @@
 body {
-    background-image: url("Photos/backgroundlaranja.jpg");
+    background-image: url("assets/backgroundlaranja.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -88,17 +88,17 @@ ul li a:hover{
 }
 
 #about{
-    background-image: url("Photos/Bolhas3.png");
+    background-image: url("assets/Bolhas3.png");
     background-position: center;
 }
 
 #portfolio{
-    background-image: url("Photos/Bolhas2.png");
+    background-image: url("assets/Bolhas2.png");
     background-position: center;
 }
 
 #acomplishments{
-    background-image: url("Photos/Bolhas\ Laranja.png");
+    background-image: url("assets/Bolhas\ Laranja.png");
     background-position: center;
    
 }
@@ -117,4 +117,8 @@ ul li a:hover{
 .socials a:hover{
     color: rgb(222, 67, 77);
     border-radius: 10px;
+}
+
+#about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -1,0 +1,19 @@
+body {
+    background-image: url("Photos/backgroundlaranja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#about{
+    font-family:'Ink Free', sans-serif;
+    font-stretch: ultra-expanded;
+    font-size: 60px;
+    color: rgb(170, 127, 47);
+
+}
+
+.topicos ul {
+    list-style-type: none;
+} 

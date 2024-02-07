@@ -1,33 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8"> <!--permite ^etc.-->
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- adapta a cada telemovel -->
-    <title>MyProfile</title>
-    <link rel="stylesheet" href="./style.css"> <!--propria pasta-->
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"  href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styleLogin.css">
 </head>
-<body>
-    <div class="container-wrap">
-        <div class="container">
-            <div class="imagem"> 
-                <img id = "foto" src = "Photos\Foto.png" alt="Foto">
-                <p id="titulo">Guilherme Pinto</p>  
-            </div>
-            <ul class="links">    
-                <li><a href="#sobre" id="about">About me</a></li>
-                <li><a href="#formacao" id="portfolio">My portfolio</a></li>
-                <li><a href="#experiencia" id="acomplishments">My acomplishments</a></li>
-            </ul>
-            <div class="socials">
-                <a id="insta" href="https://www.instagram.com/pintodasgaiolas/" target="_blank"><img src="Photos/instagram.png" alt="Instagram"></a>
-                <a id="face"href="https://www.facebook.com/gui.pinto.52" target="_blank"><img src="Photos/facebook.png" alt="Facebook"></a>
-                <a id="link"href="https://www.linkedin.com/in/guilherme-pinto-292493275/" target="_blank
-                "><img src="Photos/linkedin.png" alt="Linkedin"></a>
-            </div>        
-        </div>
-        <div>   
 
-    </div>
-</body>
-</html>
+<body>
+    
+    <form class="my-form">
+        <div class="login-welcome-row">
+            <a href="#" title="Me">
+                <img src="assets/chick.png" alt="Logo" class="logo">
+            </a>
+            <h1>Welcome!!</h1>
+            <p>Please login first!</p>
+        </div>
+        <div class="input__wrapper">
+            <input type="text" id="nome" name="nome" class="input__field" placeholder="Your Nome" required>
+            <label for="nome" class="input__label">Nome:</label>
+        </div>
+        <div class="input__wrapper">
+            <button type="button" class="toggle-password">
+                <img src="assets/invisible.png" alt="eye" class="eye">
+            </button>
+            <input id="password" type="password" class="input__field" placeholder="Your Password"
+            title="Minimum 6 characters at least 1 Alphabet and 1 Number"
+            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+            <label for="password" class="input__label">Password:
+                <label for="input__label" class="input__label">
+                    <em style="font-size: 10px; display:block; padding-top: 5px;">(Anything really)</em>
+                </label>
+            </div>
+            <button type="button" class="submit">
+                Login
+            </button>
+        </form>
+        <div class="popup">
+            
+        </div>
+    
+        <script src="script.js"></script>
+        
+    </body>
+    </html>
